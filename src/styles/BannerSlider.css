@@ -1,0 +1,48 @@
+.image-text-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.carousel-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.carousel-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-text {
+  flex: 1;
+}
+
+.carousel-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.carousel-text p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Optional: Add animation for smoother transitions */
+.carousel-image img,
+.carousel-text {
+  /* opacity: 0; */
+  transform: translateX(-20px);
+  /* transition: opacity 0.5s, transform 0.5s; */
+}
+
+.carousel-image.active img,
+.carousel-text.active {
+  opacity: 1;
+  transform: translateX(0);
+}

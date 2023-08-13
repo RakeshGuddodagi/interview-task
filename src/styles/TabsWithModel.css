@@ -1,0 +1,53 @@
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tab-buttons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  border: none;
+  background-color: transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  border-bottom: 2px solid blue;
+}
+
+.modals-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 90%;
+  position: relative;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}

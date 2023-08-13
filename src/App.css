@@ -1,0 +1,8 @@
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  flex-direction: row;
+  padding: 15px;
+}
+
